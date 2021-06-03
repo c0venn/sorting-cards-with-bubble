@@ -6,8 +6,8 @@ body{
     position: relative;
     display: inline-block;
     background-color: white;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 60px;
     margin: auto;
     padding: 50px 20px 20px;
     border-radius: 5px;
@@ -16,21 +16,21 @@ body{
     border-color: black;
     border-image: initial;
     }
-    span.top{
+    div.top{
     position: absolute;
-    top: -30px;
-    left: 5px;
-    font-size: 80px;
+    top: -10px;
+    left: 0px;
+    font-size: 30px
     }
-     span.bottom{
+     div.bottom{
     position: absolute;
-    bottom: -20px;
+    bottom: -8px;
     right: 5px;
-    font-size: 80px;
+    font-size: 30px;
     }
-    span.number{
-    font-size: 80px;
+    div.number{
+    font-size: 30px;
     position: absolute;
-    top: 125px;
-    left: 125px;
+    top: 20px;
+    left: 20px;
     }
