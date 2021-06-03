@@ -1,0 +1,36 @@
+body{
+    background-color: green;
+}
+ .card {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    padding: 50px 20px 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    }
+    span.top{
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    font-size: 80px;
+    }
+     span.bottom{
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    font-size: 80px;
+    }
+    span.number{
+    font-size: 80px;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    }
